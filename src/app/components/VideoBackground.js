@@ -1,6 +1,9 @@
 import styles from "../page.module.css";
+import ErinButton from "./ErinButton";
+import LoelButton from "./LoelButton";
 
 const VideoBackground = () => {
+
   return (
     <div className={styles.videoContainer}>
       <video autoPlay loop muted className={styles.video}>
@@ -11,19 +14,21 @@ const VideoBackground = () => {
         <h1 className={styles.scrumRockSalt} style={{ fontSize: "4rem" }}>
           The Wedding of...
         </h1>
-        <h1 className={styles.scrumLobster} style={{ fontSize: "4rem" }}>
-          Erin Marie Brekke & Loel Nelson
-        </h1>
-        <h1 className={styles.scrumCharmon}>
-          This is the first day of our life....
-        </h1>
-        <h1 className={styles.scrumMonoton} style={{ fontSize: "2rem" }}>
-          We are so excited to share this special day with you!
+        <h1 className={styles.scrumCharmon} style={{ fontSize: "4rem" }}>
+          Loel Nelson & Dr. Erin Brekke
         </h1>
         
-        <button className={styles.scrumSubmitBtn}  style={{ width: '200px', height: '50px' }}>I Do</button>
+        <h1 className={styles.scrumCharmon} style={{ fontSize: "2rem" }}>
+          We are very excited to share this special day with you!
+        </h1>
+        <p className={styles.scrumRockSalt}>Who's side are you on?</p>
+        <LoelButton />
+        <ErinButton />
+        <h1 className={styles.scrumLobster}
+        style={{ paddingTop: "20px", fontSize: "2rem" }}>
+          This is the first day of our life....
+        </h1>
       </div>
-      
     </div>
   );
 };

@@ -247,10 +247,15 @@ a.secondary {
 }
 
 .scrumDelBtn {
-  background: #fad8d8;
-  background-image: radial-gradient(#ff0055, #743535, #ff0088);
-  -webkit-border-radius: 28;
-  border-radius: 28px;
+  background: #97f7f3;
+  color:#000000;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Lobster Two', cursive;
+  background-image: radial-gradient(#b96ac3, #b82aafe8, #383e4a);
+  /* background-image: (#97f7f3); */
+  /* -webkit-border-radius: 28; */
+  border-radius: 32px;
 }
 
 .scrumDelBtn:hover {
@@ -286,19 +291,41 @@ a.secondary {
 .scrumRockSalt {
   font-family: 'Rock Salt', cursive;
   font-size: 26px;
-  text-shadow: 1px 1px 2px rgb(248, 182, 182), 0 0 25px rgb(219, 137, 212),
-    0 0 5px rgb(115, 98, 117);
-  color: #5ad0ff;
+  /* text-shadow: 1px 1px 2px rgb(123, 96, 242), 0 0 25px rgb(160, 137, 219),
+    0 0 5px rgb(98, 117, 115); */
+  color: #2afae5bc;
 }
 
-.scrumRockError {
-  font-family: 'Rock Salt', cursive;
-  font-size: 18px;
-  text-shadow: 1px 1px 2px rgb(110, 10, 10), 0 0 25px rgb(73, 195, 189),
-    0 0 5px rgb(20, 110, 47);
-  color: #ff0303;
+.loelBtnFont {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 25px rgb(130, 73, 195),
+    0 0 5px rgb(20, 20, 110);
+  color: #f48dff;
+  background: #34ff99;
+  background-image: radial-gradient(#1f1c4b, #2a2cb8e8, #032a74);
+  -webkit-border-radius: 28;
+  border-radius: 32px;
 }
-
+.loelBtnFont:hover {
+  background: #351fff42;
+  background-image: radial-gradient(to bottom, #4c71ecd2, #9e5164, #951329);
+}
+.erinBtnFont {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 25px rgb(130, 73, 195),
+    0 0 5px rgb(20, 20, 110);
+  color: #d2ffe4;
+  background: #97f7f3;
+  background-image: radial-gradient(#b96ac3, #b82aafe8, #383e4a);
+  -webkit-border-radius: 28;
+  border-radius: 32px;
+}
+.erinBtnFont:hover {
+  background: #1ff8ff42;
+  background-image: radial-gradient(to bottom, #ec4c8fd2, #9e5191, #951313);
+}
 .scrumRockErrorBig {
   font-family: 'Rock Salt', cursive;
   font-size: 70px;
@@ -317,9 +344,9 @@ a.secondary {
 .scrumCharmon {
   font-family: 'Charmonman', cursive;
   font-size: 70px;
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 1px 2px rgb(110, 47, 122), 0 0 25px rgb(198, 62, 240),
-    0 0 5px rgb(2, 6, 7);
+  text-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 25px rgb(130, 73, 195),
+    0 0 5px rgb(20, 20, 110);
+  color: #d2ffe4;
 }
 
 .scrumLobster {
