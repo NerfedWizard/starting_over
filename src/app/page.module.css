@@ -356,7 +356,21 @@ a.secondary {
     0 0 5px rgb(37, 77, 37);
 
 }
-
+.guestBtnFont {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 25px rgb(130, 73, 195),
+    0 0 5px rgb(20, 20, 110);
+  color: #f48dff;
+  background: #34ff99;
+  background-image: radial-gradient(#1f1c4b, #2a2cb8e8, #032a74);
+  -webkit-border-radius: 28;
+  border-radius: 32px;
+}
+.guestBtnFont:hover {
+  background: #351fff42;
+  background-image: radial-gradient(to bottom, #4c71ecd2, #9e5164, #951329);
+}
 .auroraborealis {
   background: radial-gradient(#05051f,
       #05051f,

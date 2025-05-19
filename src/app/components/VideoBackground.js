@@ -1,6 +1,13 @@
+"use client";
+import React from "react";
 import styles from "../page.module.css";
 import ErinButton from "./ErinButton";
 import LoelButton from "./LoelButton";
+import GuestBookButton from "./GuestBookButton";
+import Link from "next/link";
+import GuestBook from "../pages/guest";
+
+
 
 const VideoBackground = () => {
 
@@ -28,6 +35,7 @@ const VideoBackground = () => {
         style={{ paddingTop: "20px", fontSize: "2rem" }}>
           This is the first day of our life....
         </h1>
+        <GuestBookButton href="/guestbook">Submit</GuestBookButton>
       </div>
     </div>
   );
